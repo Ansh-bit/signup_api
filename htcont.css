@@ -1,0 +1,27 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 55%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px 0px;
+}
+th{
+    border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2px 50px;
+}
+.id{
+    padding: 2px 47px;
+}
+.name{
+    padding: 2px 55px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
